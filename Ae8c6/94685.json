@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 项目环境变量加载方案
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：﻿a4Y2.glwe.com.cn
+
+原标题：Docker 多阶段构建镜像瘦身
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：﻿W0Uy.glwe.com.cn
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：﻿SwQu.glwe.com.cn
+
+原标题：实践：代码提交前自动格式化校验配置实践
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：﻿OsMq.glwe.com.cn
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：﻿KoIm.glwe.com.cn
+
+原标题：Dockerfile 编写容器打包实战
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：﻿GkEi.glwe.com.cn
+
+原标题：nodejs 脚手架工具开发完整教程
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：﻿CgAe.glwe.com.cn
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：﻿c6a4.glwe.com.cn
+
+原标题：入门实践：简单批量处理脚本编写
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：﻿Y2Vz.glwe.com.cn
+
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：﻿TxRv.glwe.com.cn
+
+原标题：golang es 分词器选型业务适配
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：﻿PtNr.glwe.com.cn
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：﻿LpJn.glwe.com.cn
+
+原标题：项目依赖安全扫描漏洞防范
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：﻿HlFj.glwe.com.cn
+
+原标题：快速入门环境区分：开发、测试、生产环境
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：﻿DhBf.glwe.com.cn
+
+原标题：缓存基础原理与简单代码实现
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：﻿9d7b.glwe.com.cn
+
+原标题：golang 系统设计单元测试编写原则最佳实践
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：﻿5Z3X.glwe.com.cn
+
+原标题：任务执行锁防止并发重复调度
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：﻿1Vzx.glwe.com.cn
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：﻿RvPt.glwe.com.cn
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：﻿NrLp.glwe.com.cn
+
+原标题：数据库排序规则统一结果一致
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：﻿JnHl.glwe.com.cn
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：﻿FjDh.glwe.com.cn
+
+原标题：接口限流逻辑简单模拟实现
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：﻿Bf9d.glwe.com.cn
+
+原标题：静态资源 404 路径打包修复
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：﻿7b5Z.glwe.com.cn
+
+原标题：实战：多版本SDK兼容业务改造实践
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：﻿3X1V.glwe.com.cn
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：﻿zTxR.glwe.com.cn
+
+原标题：golang 系统信号信号量处理
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：﻿vPtN.glwe.com.cn
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：﻿rLpn.glwe.com.cn
+
+原标题：golang github actions 多平台构建
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：﻿HlFj.glwe.com.cn
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：﻿DhBf.glwe.com.cn
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：﻿9d7b.glwe.com.cn
+
+原标题：Issue：日志疯狂打日志快速占满磁盘空间
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：﻿4Y2W.glwe.com.cn
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：﻿0UyS.glwe.com.cn
+
+原标题：开源实践：维护开源项目Issue管理经验总结
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：﻿wQuO.glwe.com.cn
+
+原标题：golang 数据库慢查询监控实现
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：﻿sMqK.glwe.com.cn
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：﻿oImG.glwe.com.cn
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：﻿kEiC.glwe.com.cn
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：﻿gA8c.glwe.com.cn
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：﻿6a4Y.glwe.com.cn
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：﻿2W0U.glwe.com.cn
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：﻿ySwQ.glwe.com.cn
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Git LFS 大文件推送失败解决
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：﻿uOsM.glwe.com.cn
+
+原标题：程序预加载加快服务启动速度
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：﻿qKoI.glwe.com.cn
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：﻿mGkE.glwe.com.cn
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：﻿iCgA.glwe.com.cn
+
+原标题：从零搭建本地数据库开发环境
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：﻿e8c6.glwe.com.cn
+
+原标题：手写简易 ORM 理解对象映射
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：﻿a4Y2.glwe.com.cn
+
+原标题：golang consul 健康检查服务注册
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：﻿WUyS.glwe.com.cn
+
+原标题：开源项目本地运行排错完整清单
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：﻿wQuO.glwe.com.cn
+
+原标题：消息队列重复消费业务处理
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：﻿sMqK.glwe.com.cn
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：﻿oImG.glwe.com.cn
+
+原标题：TCP 心跳检测清理僵死连接
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：﻿kEiC.glwe.com.cn
+
+原标题：前端工程化 webpack 打包优化
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：﻿g9d7.glwe.com.cn
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：﻿b5Z3.glwe.com.cn
+
+原标题：排错：静态资源404，打包路径配置错误
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：﻿X1Vz.glwe.com.cn
+
+原标题：golang 优雅处理数据库事务
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：﻿TxRv.glwe.com.cn
+
+原标题：golang 文件上传下载接口开发
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：﻿PtNr.glwe.com.cn
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：﻿pJnH.glwe.com.cn
+
+原标题：批量操作分批处理防止 OOM
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：﻿lFjD.glwe.com.cn
+
+原标题：golang 系统设计 rest 分页排序过滤参数规范
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：﻿hBf9.glwe.com.cn
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：﻿d7b5.glwe.com.cn
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：﻿Z3X1.glwe.com.cn
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：﻿VzTx.glwe.com.cn
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：﻿RvPt.glwe.com.cn
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：﻿NrLp.glwe.com.cn
+
+原标题：golang websocket 服务端开发
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：﻿JnHl.glwe.com.cn
+
+原标题：nodejs jwt 登录鉴权完整示例
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：﻿FjDB.glwe.com.cn
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：﻿f9d7.glwe.com.cn
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：﻿b5Z3.glwe.com.cn
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：﻿X1Vz.glwe.com.cn
+
+原标题：Troubleshoot：批量导入数据，事务过大回滚日志暴涨
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：﻿TxRv.glwe.com.cn
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：﻿PtNr.glwe.com.cn
+
+原标题：AI‑Dev：AI辅助编码高效使用提示词技巧
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：﻿LpJn.glwe.com.cn
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：﻿HlEi.glwe.com.cn
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：﻿CgAe.glwe.com.cn
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：﻿8c6a.glwe.com.cn
+
+原标题：缓存过期策略优化防业务故障
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：﻿4Y20.glwe.com.cn
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：﻿UySw.glwe.com.cn
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：﻿QuOs.glwe.com.cn
+
+原标题：golang gin 路由分组权限管控
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：﻿MqKo.glwe.com.cn
+
+原标题：vue pinia 状态管理实战教程
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：﻿ImGk.glwe.com.cn
+
+三、实战开发｜Practice
+原标题：golang 系统设计灰度发布流量切分实现
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：﻿EiCg.glwe.com.cn
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：﻿Ae8c.glwe.com.cn
+
+原标题：内网测试服务搭建团队调试
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：﻿6a4Y.glwe.com.cn
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：﻿2W0U.glwe.com.cn
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：﻿ySwQ.glwe.com.cn
+
+原标题：异步异常捕获避免进程崩溃
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：﻿uOMq.glwe.com.cn
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：﻿KoIm.glwe.com.cn
+
+原标题：开发生产环境资源路径统一
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：﻿GkEi.glwe.com.cn
+
+原标题：缓存穿透防护保护数据库
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：﻿CgAe.glwe.com.cn
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：﻿8c6a.glwe.com.cn
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：﻿4Y2W.glwe.com.cn
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：﻿0UyS.glwe.com.cn
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：﻿wQuO.glwe.com.cn
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：﻿sMqK.glwe.com.cn
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：﻿nHlF.glwe.com.cn
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：﻿jhBf.glwe.com.cn
+
+原标题：复盘总结：缓存改造业务落地踩坑复盘
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：﻿9d7b.glwe.com.cn
+
+原标题：golang mysql 避免 select * 查询
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：﻿5Z3X.glwe.com.cn
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：﻿1VzT.glwe.com.cn
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：﻿xRvP.glwe.com.cn
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：﻿tNrL.glwe.com.cn
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：﻿pJnH.glwe.com.cn
+
+原标题：golang 系统设计序列化性能选型对比
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：﻿lFjD.glwe.com.cn
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：﻿hBf9.glwe.com.cn
+
+原标题：实战：Redis过期回调实现业务事件通知实践
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：﻿d7b5.glwe.com.cn
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：﻿3X1V.glwe.com.cn
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：﻿zTxR.glwe.com.cn
+
+原标题：golang 系统设计状态字段枚举约束设计思路
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：﻿vPtN.glwe.com.cn
+
+原标题：golang 系统设计大文件上传架构
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：﻿rLpJ.glwe.com.cn
+
+原标题：golang kafka offset 提交策略
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：﻿nHlF.glwe.com.cn
+
+原标题：golang ci 流水线环境变量管理方案
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：﻿jDhB.glwe.com.cn
+
+原标题：缓存过期策略优化防业务故障
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：﻿f9d7.glwe.com.cn
+
+原标题：golang 系统设计回调签名校验防伪造实现
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：﻿b5Z3.glwe.com.cn
+
+原标题：坑点：环境配置写死代码，上线忘记修改
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：﻿X1Vz.glwe.com.cn
+
+原标题：golang excel 简单读写操作示例
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：﻿TxRP.glwe.com.cn
+
+原标题：性能复盘：磁盘Swap大量使用系统卡顿优化
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：﻿tMqK.glwe.com.cn
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：﻿oImG.glwe.com.cn
+
+原标题：内网测试服务搭建团队调试
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：﻿kEiC.glwe.com.cn
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：﻿gAe8.glwe.com.cn
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：﻿c6a4.glwe.com.cn
+
+四、架构设计｜Architecture
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：﻿Y2W0.glwe.com.cn
+
+原标题：golang 系统设计定时任务分布式锁
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：﻿UySw.glwe.com.cn
+
+原标题：golang kafka 消费者组原理讲解
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：﻿QuOs.glwe.com.cn
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：﻿MqKo.glwe.com.cn
+
+原标题：golang 单例模式实现几种方式
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：﻿ImGE.glwe.com.cn
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：﻿iCgA.glwe.com.cn
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：﻿e8c6.glwe.com.cn
+
+原标题：前后端会话登录状态持久化
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：﻿a4Y2.glwe.com.cn
+
+原标题：golang 系统设计缓存基准测试对比方案
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：﻿W0Uy.glwe.com.cn
+
+原标题：热更新开发环境配置教程
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：﻿SwQu.glwe.com.cn
+
+原标题：golang es 更新文档注意版本冲突
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：﻿OsMq.glwe.com.cn
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：﻿KoIm.glwe.com.cn
+
+原标题：golang 系统设计消息队列解耦削峰
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：﻿GkEi.glwe.com.cn
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：﻿CgAe.glwe.com.cn
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：﻿8ca4.glwe.com.cn
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：﻿Y2W0.glwe.com.cn
+
+原标题：GET POST 接口请求参数处理
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：﻿UyRv.glwe.com.cn
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：﻿PtNr.glwe.com.cn
+
+?
