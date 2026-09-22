@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目实践：定时任务防重复执行落地实践
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/50109029.html
+
+原标题：golang docker volume 数据持久化
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/19175675.html
+
+原标题：实践：多配置文件合并加载组件实现
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/64632333.html
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/33952301.html
+
+原标题：golang redis 集群 hash 槽讲解
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/49179664.html
+
+原标题：接口幂等性防重复请求实现
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/83579685.html
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/31320129.html
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/20301885.html
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/60401745.html
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/64733023.html
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/85848453.html
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/48078544.html
+
+原标题：线上接口超时故障排查思路
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/54620300.html
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/03555780.html
+
+原标题：服务启动依赖顺序配置正确
+简介：程序日志分级输出规范实践，区分日志等级，规范日志打印内容，合理输出日志，方便线上问题排查定位。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/47756880.html
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/58888010.html
+
+原标题：golang docker 部署 redis 配置要点
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/48118991.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/26905291.html
+
+原标题：Issue：浏览器缓存ServiceWorker导致旧页面常驻
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/74622014.html
+
+原标题：ORM 框架数据库增删改查实操
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/87117870.html
+
+原标题：线上故障：消息队列重复消费业务处理异常
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/86952569.html
+
+原标题：HelloWorld：快速上手新项目最小可运行示例
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/19064535.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/95739180.html
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/97740181.html
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/16855369.html
+
+原标题：golang 项目 docker compose 本地调试
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/86665235.html
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/09174467.html
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/43541280.html
+
+原标题：Shell 运维脚本服务器效率提升
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/82406847.html
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/54288565.html
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/08074897.html
+
+原标题：排错：本地[localhost](https://localhost)可以，127001访问失败
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/98295648.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/08173302.html
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/64711857.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/88060235.html
+
+原标题：大文件导出内存溢出防护
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/20395613.html
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/64952405.html
+
+原标题：内存广播本地进程消息通知
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/25699002.html
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/71121447.html
+
+原标题：golang 项目环境变量加载方案
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/27973414.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang redis 缓存雪崩完整处理
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/14334356.html
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/24675769.html
+
+原标题：golang es 映射 mapping 设计避坑
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/70002022.html
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/96067470.html
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/32518980.html
+
+原标题：Architecture：链路追踪架构核心组件与埋点
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/19229692.html
+
+原标题：golang 日志与链路 ID 关联打印
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/76909291.html
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/39280891.html
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/97063414.html
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/10239629.html
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/87966458.html
+
+原标题：定时任务周期调度 demo 开发
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/64620120.html
+
+原标题：浮点计算精度错误处理方案
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/86995368.html
+
+原标题：golang jwt 鉴权中间件完整示例
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/16877569.html
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/35675768.html
+
+原标题：坑点：环境配置写死代码，上线忘记修改
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/36788799.html
+
+原标题：从零搭建简单的健康检查接口示例
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/84928462.html
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/50805846.html
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/85272403.html
+
+原标题：golang k8s 滚动更新回滚策略
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/29302818.html
+
+原标题：架构复盘：消息死信处理架构避免消息丢失
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73824648.html
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/51573808.html
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73705858.html
+
+原标题：golang redis 过期 key 监听业务
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73624139.html
+
+原标题：golang 系统设计会话共享多实例部署
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/51503514.html
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/65496948.html
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/28279571.html
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/96918050.html
+
+原标题：Debug：表单提交特殊字符造成接口解析失败
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/51895836.html
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/62618142.html
+
+原标题：golang 系统设计状态字段枚举约束设计思路
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/83736253.html
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/28371393.html
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/40492515.html
+
+原标题：golang csv 读写批量数据处理
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/51680675.html
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/51462404.html
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/95945132.html
+
+原标题：慢查询分析索引调优数据库实战
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06027062.html
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06058173.html
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/41514911.html
+
+原标题：端口占用释放资源重启服务
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/52806869.html
+
+三、实战开发｜Practice
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/08271382.html
+
+原标题：并发数据覆盖加锁安全处理
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/85946252.html
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06047251.html
+
+原标题：golang mongodb 聚合管道实操案例
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/18169475.html
+
+原标题：DNS TTL 配置域名切换生效
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/17161693.html
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/83758460.html
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/41460696.html
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/74835848.html
+
+原标题：golang 结构体 json 序列化坑点
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73728082.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73239248.html
+
+原标题：跨域偶现失败配置修复
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/95936252.html
+
+原标题：开发生产环境资源路径统一
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73725153.html
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/40794715.html
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06046241.html
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/40492829.html
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/63128171.html
+
+原标题：JWT 令牌过期异常处理
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/62016947.html
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73797350.html
+
+原标题：手写简易 RPC 服务通信原型
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/39368364.html
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06940303.html
+
+原标题：golang docker 部署 kafka 本地调试
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/73826142.html
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/32430193.html
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/65522013.html
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/76967869.html
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/32444235.html
+
+原标题：golang 系统设计分布式任务调度
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/09290090.html
+
+原标题：golang redis 集群 hash 槽讲解
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/32741241.html
+
+原标题：数据库连接及时关闭连接泄漏
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/74581470.html
+
+原标题：开发生产环境资源路径统一
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/43358125.html
+
+原标题：内存溢出问题现象识别排查
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/59447092.html
+
+原标题：golang http 服务性能优化调参
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/07671136.html
+
+原标题：golang k8s 镜像拉取密钥配置
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/07892571.html
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/96792492.html
+
+原标题：golang grafana 面板变量模板制作
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/15034709.html
+
+原标题：快速入门：API接口调试完整实操步骤
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/97792366.html
+
+原标题：分布式任务调度集群原型开发
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/92347092.html
+
+原标题：golang mysql limit 大分页优化
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/28347925.html
+
+原标题：代码模块化组件化拆分思路
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/41259192.html
+
+原标题：golang mysql 事务回滚异常处理
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/70133660.html
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/69358147.html
+
+四、架构设计｜Architecture
+原标题：golang 内存 pprof 定位内存泄漏
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/69269712.html
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/93792013.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/82792570.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/37247602.html
+
+原标题：跨库查询性能优化处理
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/29136814.html
+
+原标题：Security：服务器最小权限账号运维实践
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/71247147.html
+
+原标题：空指针异常判空容错处理
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/52573795.html
+
+原标题：golang 系统设计缓存基准测试对比方案
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/06169693.html
+
+原标题：多版本开发环境共存配置
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/18795844.html
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/04132471.html
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/62673627.html
+
+原标题：golang docker compose 部署 minio
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/40805849.html
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/74057360.html
+
+原标题：线程池拒绝策略任务丢失防护
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/29348696.html
+
+原标题：Practice：简易限流器分布式版本Redis实现
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/18371415.html
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/07125248.html
+
+原标题：golang 系统设计布隆过滤器原理与落地
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/50474818.html
+
+原标题：golang redis stream 消息队列实践
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://www.blog.ujsms.cn/wbkxv/85046249.html
+
+?
